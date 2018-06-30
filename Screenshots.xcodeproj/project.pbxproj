@@ -14,6 +14,7 @@
 		896B51A320E794A900DC7E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896B51A120E794A900DC7E4E /* LaunchScreen.storyboard */; };
 		896B51AE20E794A900DC7E4E /* ScreenshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B51AD20E794A900DC7E4E /* ScreenshotsTests.swift */; };
 		896B51B920E794A900DC7E4E /* ScreenshotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B51B820E794A900DC7E4E /* ScreenshotsUITests.swift */; };
+		896B51CD20E7973C00DC7E4E /* mac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 896B51CC20E7973C00DC7E4E /* mac.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		896B51B420E794A900DC7E4E /* ScreenshotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenshotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896B51B820E794A900DC7E4E /* ScreenshotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsUITests.swift; sourceTree = "<group>"; };
 		896B51BA20E794A900DC7E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896B51CC20E7973C00DC7E4E /* mac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mac.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				896B519820E794A500DC7E4E /* AppDelegate.swift */,
+				896B51CC20E7973C00DC7E4E /* mac.jpg */,
 				896B519A20E794A500DC7E4E /* ViewController.swift */,
 				896B519C20E794A500DC7E4E /* Main.storyboard */,
 				896B519F20E794A900DC7E4E /* Assets.xcassets */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				896B51A320E794A900DC7E4E /* LaunchScreen.storyboard in Resources */,
+				896B51CD20E7973C00DC7E4E /* mac.jpg in Resources */,
 				896B51A020E794A900DC7E4E /* Assets.xcassets in Resources */,
 				896B519E20E794A500DC7E4E /* Main.storyboard in Resources */,
 			);
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = Screenshots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = Screenshots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
